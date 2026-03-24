@@ -9,5 +9,6 @@ the Java Developer Kit (JDK) -- stick with JDK version 17
 Go back to your terminal and type:
 
 javac StepTwo.java
+
 java StepTwo
 
