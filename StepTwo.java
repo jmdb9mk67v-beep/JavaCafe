@@ -25,5 +25,5 @@ public class StepTwo {
     System.out.println("Subtotal: $" + subTotal);
     System.out.println("Tax (0.13%): $" + totalTax);
     System.out.println("Grand Total: $" + grandTotal);
-  } //main
+  } // main
 } // class

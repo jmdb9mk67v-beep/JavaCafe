@@ -7,7 +7,7 @@
 
 public class StepOne {
 
-  // The main method is the "Entry Point" of every Java app.
+  // The main method is the "Entry Point" of every Java app.  Without this line it will NOT work.
   public static void main(String [] args) {
     
   //*  String is an Object (Capital S), int is a primitive (lowercase i) *//
