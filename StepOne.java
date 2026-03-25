@@ -1,19 +1,28 @@
-
 /**
  * StepOne.java
- * Topic: Class Structure & Primitive Types
- * Lesson: Java requires explicit types for memory allocation.
+ * Topic: Variable Declaration
+ * Lesson: Allocation before Execution.
  */
-
 public class StepOne {
 
-  // The main method is the "Entry Point" of every Java app.  Without this line it will NOT work.
-  public static void main(String [] args) {
-    
-  //*  String is an Object (Capital S), int is a primitive (lowercase i) *//
-  System.out.println("Developer: " + developerName);
-  System.out.println("Number of children: " + totalChildren);
-  System.out.println("Currently a student: " + isStudent);
+    public static void main(String[] args) {
+        
+        // Block 1: Variable Declarations
+        // We define the type first so 
+        // Java can allocate memory.
+        String developerName = "Lam";
+        int totalChildren = 5;
+        boolean isStudent = true;
 
-  } // main
+        // Block 2: Console Output
+        // The '+' operator joins the 
+        // labels to the stored data.
+        System.out.println("Developer: " + 
+            developerName);
+        System.out.println("Number of children: " + 
+            totalChildren);
+        System.out.println("Currently a student: " + 
+            isStudent);
+
+    } // main
 } // class
