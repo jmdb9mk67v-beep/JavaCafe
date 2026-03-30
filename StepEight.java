@@ -30,7 +30,7 @@ public class StepEight {
     // the program crashing, it executes this logic when
     // an error occurs.
     catch (Exception errorInstance) {
-      System.out.println("Something went wrong. ");
+      System.out.println("Are you serious? ");
       System.out.println("Error: " + errorInstance.getMessage());
     }
 
