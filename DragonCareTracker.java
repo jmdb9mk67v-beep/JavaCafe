@@ -33,7 +33,7 @@ public class DragonCareTracker {
       while (choice != 3) {
         myDragon.displayStats();
 
-        System.out.println("%nMENU:");
+        System.out.println("MENU:");
         System.out.println("1) Feed");
         System.out.println("2) Train");
         System.out.println("3) Exit");
