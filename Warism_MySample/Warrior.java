@@ -8,9 +8,9 @@ package warrior;
  */
 public class Warrior {
 
-  private String name;
-  private int health;
-  private int strength;
+  protected String name;
+  protected int health;
+  protected int strength;
 
   public Warrior() {
     //  base constructor
